@@ -1,0 +1,61 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Vector store (generated data — do not commit)
+chroma_db/
+chroma_db_*/
+*.sqlite3
+
+# Generated Markdown from PDFs
+output.md
+*.md.bak
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragexml
+
+# Whisper model cache (downloaded at runtime)
+~/.cache/whisper/
+
+# HuggingFace model cache
+~/.cache/huggingface/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
