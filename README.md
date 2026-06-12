@@ -1,3 +1,7 @@
+[![Hugging Face Space](https://shields.io)](https://huggingface.co/spaces/shreyasp11111111111111/rag2)
+
+
+
 # 🌐 Multilingual RAG with Voice Input
 
 A production-ready **Retrieval-Augmented Generation (RAG)** pipeline with multilingual support and voice input, powered by Google Gemini 2.5, LangChain, ChromaDB, and OpenAI Whisper.
